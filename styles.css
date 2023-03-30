@@ -12,14 +12,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 body{
     background-color: var(--background-color);
+    text-align: center;
 }
 #header 
 {
     background-image:url(Images/Background_Img.jpeg);
     height: 100vh;
     width:100%;
+    margin: 10px 0;
+    text-align: center;
 }
 #header nav ul
 {
@@ -27,33 +31,31 @@ body{
     gap: 4rem;
     justify-content:center;
     padding: 10px 0;
+    background-color: rgba(255, 174, 0, 0.363);
 }
 #header nav ul li{
     list-style: none;
-    padding: 20px;
-    background-color:rgb(202, 254, 255) ;
-    border-radius: 35px;
+    padding: 10px 20px;
+    border-radius: 5px;
     transition: .5s;
-}
-#header nav ul li a{
-    text-decoration: none;
-    color: #145678;
+    font-weight: 600;
     font-size: 20px;
 }
-#header nav ul li:hover{
-    background-color:rgb(0, 251, 255) ;
-    border-radius: 10px;
+#header nav ul li:hover {
+    background-color: var(--border-color);
     cursor: pointer;
-    border-bottom: 7px solid var(--btn-color);
-    color: black;
+}
+
+#header nav ul li a{
+    text-decoration: none;
+    color: #181818;
 }
 
 
 #header h1{
     font-size: 60px; 
-    position: absolute;
-    left: 128px;
-    top: 156px;
+    color: var(--border-color);
+    margin: 40px 0;
 }
 #header h1 span{
     position: relative;
@@ -61,14 +63,14 @@ body{
     color: #18be4f;
     -webkit-text-stroke: 1px #181818;
 }
-/*-----------------------Header-End-------------------*/
+/*-----------------------Copyright-End-------------------*/
 .copiright{
-    background-color: #57849b;
+    background-color: var(--border-color);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70px;
+    height: 45px;
     color: #fff;
 }
 /*-----------------------Home-about-------------------*/
@@ -95,13 +97,24 @@ body{
     font-size: 20px;
 }
 /*------------------------std-card------------------------*/
+.heading
+{
+    text-align: center;
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 35px;
+    background-color: var(--border-color);
+    border-radius: 7px;
+    color: #fff;
+}
 .card{
     display: flex;
     flex-direction: column;
-    max-height: 700px;
-    max-width: 300px;
+    height: 350px;
+    width: 300px;
     margin: 20px;
     padding: 10px;
+    text-align: left;
     border-right : 6px solid var(--border-color);
     background-color: var(--std-bck-clr);
     border-radius: 15px;
@@ -125,16 +138,19 @@ body{
     padding: 6px;
     text-align: center;
 }
-.card h6{
+.card h6,p{
     font-size: 20px;
     font-weight: 400;
 
 }
-.boys-captain{
+.students{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     
 }
-.captain-grid h1{
+.students-grid h1{
     text-align: center;
 }
+/*-----------------------------Teacher_Card------------------------------*/
+
+
