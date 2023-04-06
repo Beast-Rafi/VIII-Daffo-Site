@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VIII-Daffodil</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
     <div id="header">
+        <button class="btn" onclick="openmenu()">Menu</button>
         <nav>
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="students.html">Students</a></li>
                 <li><a href="teacher.html">Teacher</a></li>
                 <li><a href="#">Chat</a></li>
+                <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
             </ul>
         </nav>
         <div class="wlcm-text">
@@ -23,7 +26,7 @@
         </div>
         
     </div>
-    <div class="home-slide">
+    <div class="home-slide hidden">
         <div class="slide-img"><img src="Images/classroom-img.png" alt=""></div>
         <div class="slide-text">
             <h1>Our Classroom</h1>
@@ -36,7 +39,7 @@
             </p>
         </div>
     </div>
-    <div class="home-slide">
+    <div class="home-slide hidden">
         <div class="slide-text">
             <h1>Our Creative Board</h1>
             <p>Our creative board represents the creativity of the students
@@ -49,7 +52,7 @@
         <div class="slide-img"><img src="Images/classroom-img.png" alt=""></div>
     </div>
     <div class="copiright">
-        <h1>Copiright 2023© to VIII-Daffodil</h1>    
+        <h1>Copiright ©2023 VIII-Daffodil</h1>    
     </div>
 </body>
 </html>

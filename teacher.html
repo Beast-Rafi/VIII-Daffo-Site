@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VIII+Daffo|Teachers</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
 </head>
     <body>
         <div id="header">
+            <button class="btn" onclick="openmenu()">Menu</button>
             <nav>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="students.html">Students</a></li>
                     <li><a href="teacher.html">Teacher</a></li>
                     <li><a href="#">Chat</a></li>
+                    <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
                 </ul>
             </nav>
             <h1>Meet Our Teachers</h1>
@@ -24,13 +27,135 @@
             <h1 class="heading">Class Teacher</h1>
             <div class="students">
                 
-                <div id="teacher-card" class="card">
-                    <img src="Student Images/Miraj-img.jpg" alt="StudentImage">
-                    <h4>1st Captain</h4>
-                    <p>Name  :Musaddik Islam Miraj</p>
-                    <p>ID  :0119XXXX</p>
-                    <p>House  :Begum Rokeya</p>
-                    <p>Captaincy Status: 1/1/23 - Current </p>
+                <div  class="teacher-card">
+                    <img src="Teacher Images/MR.jpg" alt="StudentImage">
+                    <h4>Class teacher</h4>
+                    <p>Name  : Mahafuzar Rahman</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Fazlul hoque</p>
+                    <p>Subject: Science (Biology)</p>
+                    <p>Code-Name: MR </p>
+                </div>
+            </div>
+        <!------------------------------Subject_Teacher-------------------------------->
+            <h1 class="heading">Subject Teachers</h1>
+            <div class="students">
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Anonna</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Fazlul hoque</p>
+                    <p>Subject: Bangla 1st</p>
+                    <p>Code-Name: AN </p>
+                </div>    
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : China Rani Gupta</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Fazlul hoque</p>
+                    <p>Subject: Bangla 2nd</p>
+                    <p>Code-Name: AN </p>
+                </div>
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Shiekh Al Amin</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Nazrul Islam</p>
+                    <p>Subject: English 1st</p>
+                    <p>Code-Name: SAA </p>
+                </div>    
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Muhayminul Kabir</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Null</p>
+                    <p>Subject: English 2nd</p>
+                    <p>Code-Name: MKB </p>
+                </div>
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Zakir Hossain</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Fazlul hoque</p>
+                    <p>Subject: Math</p>
+                    <p>Code-Name: ZH </p>
+                </div>    
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Mohammad Abdus Salam</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Begum Rokeya</p>
+                    <p>Subject: BGS</p>
+                    <p>Code-Name: MAS </p>
+                </div>
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Nilombor Roy</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Fazlul hoque</p>
+                    <p>Subject: Science (Physics & Chemistry)</p>
+                    <p>Code-Name: NR </p>
+                </div>    
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Mohsin Alam</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Begum Rokeya</p>
+                    <p>Subject: Religion Studies</p>
+                    <p>Code-Name: MA </p>
+                </div>
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Md. Shariful Islam</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Null</p>
+                    <p>Subject: Agriculture</p>
+                    <p>Code-Name: MSI</p>
+                </div>
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Bayzid Hossain</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Null</p>
+                    <p>Subject: ICT</p>
+                    <p>Code-Name: BH </p>
+                </div>    
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Anisur Rahman</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Fazlul hoque</p>
+                    <p>Subject: CEd</p>
+                    <p>Code-Name: N/A </p>
+                </div>    
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : Muzahid Hossain</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Nutral</p>
+                    <p>Subject: Physical Education</p>
+                    <p>Code-Name: MH(P) </p>
+                </div>
+                <div  class="teacher-card">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
+                    <h4>Subject Teacher</h4>
+                    <p>Name  : (N/A)</p>
+                    <p>ID  : XXXXXX</p>
+                    <p>House  : Null</p>
+                    <p>Subject: Arts and Craft</p>
+                    <p>Code-Name: RTF </p>
                 </div>
             </div>
         </div>    

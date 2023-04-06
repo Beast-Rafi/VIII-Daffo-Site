@@ -4,39 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VIII-Daffo|Students</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
     <div id="header">
+        <button class="btn" onclick="openmenu()">Menu</button>
         <nav>
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="students.html">Students</a></li>
                 <li><a href="teacher.html">Teacher</a></li>
                 <li><a href="#">Chat</a></li>
+                <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
             </ul>
         </nav>
-        <div class="wlcm-text"><h1>Members of our section</h1></div>
+        <div class="wlcm-text">Members of our section</div>
     </div>
     <!--------------------------BOYS_CAPTAIN_CARD--------------------------------------->
     <div class="students-grid">
         <h1 class="heading">Boys Captain</h1>
-        <div class="students">
+        <div class="students hidden">
             
             <div class="card">
                 <img src="Student Images/Miraj-img.jpg" alt="StudentImage">
                 <h4>1st Captain</h4>
                 <p>Name  :Musaddik Islam Miraj</p>
-                <p>ID  :0119XXXX</p>
+                <p>ID  :01195294</p>
                 <p>House  :Begum Rokeya</p>
                 <p>Captaincy Status: 1/1/23 - Current </p>
             </div>
             <div class="card">
-                <img src="Student Images/BeastLogo2.1.png" alt="StudentImage">
+                <img src="Images/Profile_pic.webp" alt="StudentImage">
                 <h4>2nd Captain</h4>
                 <p>Name  : Nirob</p>
-                <p>ID  :0119XXXX</p>
+                <p>ID  :01194299</p>
                 <p>House  : Fazlul Haque</p>
                 <p>Captaincy Status: 1/1/23 - Current </p>
             </div>
@@ -46,18 +49,18 @@
             <div class="students">
             
                 <div class="card">
-                    <img src="Student Images/BeastLogo2.1.png" alt="StudentImage">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
                     <h4>1st Captain</h4>
                     <p>Name  : Anisa Ibnat</p>
-                    <p>ID  :0119XXXX</p>
+                    <p>ID  :01191933</p>
                     <p>House  : Jasim Uddin</p>
                     <p>Captaincy Status: 1/1/23 - Current </p>
                 </div>
                 <div class="card">
-                    <img src="Student Images/BeastLogo2.1.png" alt="StudentImage">
+                    <img src="Images/Profile_pic.webp" alt="StudentImage">
                     <h4>2nd Captain</h4>
                     <p>Name  : Fahmida Prodhan</p>
-                    <p>ID  :0119XXXX</p>
+                    <p>ID  :01194841</p>
                     <p>House  : Jasim Uddin</p>
                     <p>Captaincy Status: 1/1/23 - Current </p>
                 </div>
@@ -65,38 +68,326 @@
             <!--------------------------STUDENTS_CARDS--------------------------------------->
             <h1 class="heading">Students</h1>
             <div class="students">
-            
-                <div class="card">
-                    <img src="Student Images/Fahim_Shakil_img.jpg" alt="StudentImage">
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Ridwan Hoque Niloy</p>
+                    <p>ID  : 01191800</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Nafiul Karim Shanto</p>
+                    <p>ID  : 01191810</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Ishrat jahan Nizum</p>
+                    <p>ID  : 01191831</p>
+                    <p>House  : NUll</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Rayhan Ali Rifat</p>
+                    <p>ID  : 01191834</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Prithy Rohan</p>
+                    <p>ID  : 01191850</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Saroer Hossain</p>
+                    <p>ID  : 01191857</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Nazia Tabassum</p>
+                    <p>ID  : 01191866</p>
+                    <p>House  : NUll</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Refat Mahamud</p>
+                    <p>ID  : 01191873</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Fahmeda Aktar</p>
+                    <p>ID  : 01191877</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Shahriar Sajol</p>
+                    <p>ID  : 01191886</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Nawwar E Jannat</p>
+                    <p>ID  : 01191889</p>
+                    <p>House  : Fazlul Haque</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Omar Faruk</p>
+                    <p>ID  : 01191896</p>
+                    <p>House  : Fazlul Haque</p>
+                </div>
+                    <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Sidratul Muntaha</p>
+                    <p>ID  : 01191906</p>
+                    <p>House  : Begum Rokeya</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Akib Al Hasan</p>
+                    <p>ID  : 01191911</p>
+                    <p>House  : Begum Rokeya</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Noman Sajjad</p>
+                    <p>ID  : 01191929</p>
+                    <p>House  : Begum Rokeya</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Farhan Tamim Talukder</p>
+                    <p>ID  : 01191937</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Anisa Ibnat</p>
+                    <p>ID  : 01191933</p>
+                    <p>House  : Jsim Uddin</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Tajnim Inshiha</p>
+                    <p>ID  : 01191953</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Abdulla Al Tazim</p>
+                    <p>ID  : 01191954</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Sahid Al Rabbi</p>
+                    <p>ID  : 01191962</p>
+                    <p>House  : Jasim Uddin</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Zaima</p>
+                    <p>ID  : 01191966</p>
+                    <p>House  : Jasim Uddin</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Muhtasim Safim</p>
+                    <p>ID  : 01191970</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Huaira Sabrin</p>
+                    <p>ID  : 01191974</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Md Jakaria Tamim</p>
+                    <p>ID  : 01191982</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Anika Tasnim Ononna</p>
+                    <p>ID  : 01192902</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Nur Shahariar Rafi</p>
+                    <p>ID  : 01193602</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Fariha Mostofa Manha</p>
+                    <p>ID  : 01193611</p>
+                    <p>House  : Nazrul Haque</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Arif Ashteak Nirob</p>
+                    <p>ID  : 01194299</p>
+                    <p>House  : Fazlul Haque</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Mis Mohmina Akter Mim</p>
+                    <p>ID  : 01194316</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                    <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Md Nafiul Hasan Maruf</p>
+                    <p>ID  : 01194350</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Mis Nowrin Muntaha Dipu</p>
+                    <p>ID  : 01194354</p>
+                    <p>House  : Begum Rokeya</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : MD Tajkir Ahmad Muij</p>
+                    <p>ID  : 01194362</p>
+                    <p>House  : Begum Rokeya</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Most Sumaiya Sabrin Prionti</p>
+                    <p>ID  : 01194383</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Nafisa Maliyat</p>
+                    <p>ID  : 01194407</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Md Fahim Tahmid</p>
+                    <p>ID  : 01194421</p>
+                    <p>House  : Jasim Uddin</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Most Maliha Zahin Rubaiya</p>
+                    <p>ID  : 01194432</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Md Abir Hasan Tarif</p>
+                    <p>ID  : 01194495</p>
+                    <p>House  : Jasim Uddin</p>
+                    </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Md Shafin Muntasir</p>
+                    <p>ID  : 01194772</p>
+                    <p>House  : Nazrul Islam</p>
+                </div>
+                <div class='card'>
+                    <img src='Student Images/Fahim_Shakil_img.jpg' alt='StudentImage'>
                     <h4>Student</h4>
                     <p>Name  : Fahim Shakil</p>
                     <p>ID  : 01194816</p>
                     <p>House  : Begum Rokeya</p>
                 </div>
-                <div class="card">
-                    <img src="Student Images/BeastLogo2.1.png" alt="StudentImage">
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
                     <h4>Student</h4>
-                    <p>Name  :Akib Al Hasan</p>
-                    <p>ID  :0119XXXX</p>
-                    <p>House  :Begum Rokeya</p>
+                    <p>Name  : Fahmida Prodhan</p>
+                    <p>ID  : 01194841</p>
+                    <p>House  : Jasim Uddin</p>
                 </div>
-                <div class="card">
-                    <img src="Student Images/Fahim_Shakil_img.jpg" alt="StudentImage">
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
                     <h4>Student</h4>
-                    <p>Name  : Fahim Shakil</p>
-                    <p>ID  : 01194816</p>
+                    <p>Name  : Yea Mahamud Riyad</p>
+                    <p>ID  : 01194911</p>
+                    <p>House  : Null</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Musaddik Islam Miraj</p>
+                    <p>ID  : 01195294</p>
                     <p>House  : Begum Rokeya</p>
                 </div>
-                <div class="card">
-                    <img src="Student Images/BeastLogo2.1.png" alt="StudentImage">
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
                     <h4>Student</h4>
-                    <p>Name  :Akib Al Hasan</p>
-                    <p>ID  :0119XXXX</p>
-                    <p>House  :Begum Rokeya</p>
+                    <p>Name  : Misha Mahabub</p>
+                    <p>ID  : 01195334</p>
+                    <p>House  : Jasim Uddin</p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Enan Tasnim</p>
+                    <p>ID  : 0119</p>
+                    <p>House  : </p>
+                </div>
+                <div class='card'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
+                    <h4>Student</h4>
+                    <p>Name  : Farazana</p>
+                    <p>ID  : 0119</p>
+                    <p>House  : </p>
                 </div>
             </div>
-           </div>
+
+        
+    </div>
     <div class="copiright">
-        <h1>Copiright 2023© to VIII-Daffodil</h1> 
+        <h1>Copiright ©2023 VIII-Daffodil</h1> 
 </body>
 </html>
