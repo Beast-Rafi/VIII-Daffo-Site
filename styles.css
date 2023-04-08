@@ -92,6 +92,9 @@ body{
     height: 45px;
     color: #fff;
 }
+.copiright span{
+    color: var(--border-color2);
+}
 /*-----------------------Home-about-------------------*/
 .home-slide{
     display: flex;
@@ -288,3 +291,15 @@ body{
         color: var(--border-color);
     }
 }
+
+/* ------------------------------Chatting-area----------------------------- */
+#todos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1.5em;
+
+}
+
+
