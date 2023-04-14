@@ -9,17 +9,17 @@
     <script defer src="app.js"></script>
 </head>
 <body>
+    <button class="btn" onclick="openmenu()">Menu</button>
+    <nav class="header">
+        <ul id="sidemenu">
+            <li data-text="HOME"><a  href="index.html">Home</a></li>
+            <li data-text="STUDENT"><a href="students.html">Students</a></li>
+            <li data-text="TEACHER"><a  href="teacher.html">Teacher</a></li>
+            <li data-text="CHAT"><a href="chat.html">Chat</a></li>
+            <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
+        </ul>
+    </nav>
     <div id="header">
-        <button class="btn" onclick="openmenu()">Menu</button>
-        <nav>
-            <ul id="sidemenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="students.html">Students</a></li>
-                <li><a href="teacher.html">Teacher</a></li>
-                <li><a href="chat.html">Chat</a></li>
-                <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
-            </ul>
-        </nav>
         <div class="wlcm-text">Members of our section</div>
     </div>
     <!--------------------------BOYS_CAPTAIN_CARD--------------------------------------->
@@ -160,7 +160,7 @@
                     <p>House  : Begum Rokeya</p>
                 </div>
                 <div class='card'>
-                    <img src='Student Images/Akib_Img.jpg' alt='StudentImage'>
+                    <img src='Images/Profile_pic.webp' alt='StudentImage'>
                     <h4>Student</h4>
                     <p>Name  : Akib Al Hasan</p>
                     <p>ID  : 01191911</p>

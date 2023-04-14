@@ -9,25 +9,25 @@
     <script defer src="app.js"></script>
 </head>
 <body>
+    <ul>
+        <li class="btn" onclick="openmenu()">Menu</li>
+    </ul>
+    <nav class="header">
+        <ul id="sidemenu">
+            <li data-text="HOME"><a  href="index.html">Home</a></li>
+            <li data-text="STUDENT"><a href="students.html">Students</a></li>
+            <li data-text="TEACHER"><a  href="teacher.html">Teacher</a></li>
+            <li data-text="CHAT"><a href="chat.html">Chat</a></li>
+            <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
+        </ul>
+    </nav>
     <div id="header">
-        <button class="btn" onclick="openmenu()">Menu</button>
-        <nav>
-            <ul id="sidemenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="students.html">Students</a></li>
-                <li><a href="teacher.html">Teacher</a></li>
-                <li><a href="chat.html">Chat</a></li>
-                <li><a class="close-btn" onclick="closemenu()">Close Menu</a></li>
-            </ul>
-        </nav>
         <div class="wlcm-text">
-            <h1>Welcome to VIII-Daffodil
-            </h1>
+            Welcome to VIII-Daffodil
         </div>
-        
     </div>
     <div class="home-slide hidden">
-        <div class="slide-img"><img src="Images/classroom-img.png" alt=""></div>
+        <div class="slide-img"><img src="Images/Background_Img.jpeg" alt=""></div>
         <div class="slide-text">
             <h1>Our Classroom</h1>
             <p>Our class room is kinda rctanguler.
@@ -49,7 +49,7 @@
                 art works can also be seen. 
             </p>
         </div>
-        <div class="slide-img"><img src="Images/classroom-img.png" alt=""></div>
+        <div class="slide-img"><img src="Images/Background_Img.jpeg" alt=""></div>
     </div>
     <div class="copiright">
         <p>Copiright ©2023 <span>VIII-Daffodil</span></p>    
